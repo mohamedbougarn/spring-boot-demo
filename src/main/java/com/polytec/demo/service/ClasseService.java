@@ -17,7 +17,7 @@ public class ClasseService
         return classeRepository.add(classe);
     }
 
-    public Classe getClasseById(String id) {
+    public Classe getClasseById(Long id) {
         return classeRepository.getClasseById(id);
     }
 
@@ -28,14 +28,14 @@ public class ClasseService
 
     public void delete(Long id)
     {
-        classeRepository.delete(id);
+        classeRepository.deleteById(id);
     }
 
     public List<Classe> getAll() {
         return classeRepository.getAll();
     }
 
-    public Classe getClassById(String id) {
-        return classeRepository.getClassById(id);
+    public Classe getClassById(Long id) {
+        return classeRepository.getClasseById(id);
     }
 }

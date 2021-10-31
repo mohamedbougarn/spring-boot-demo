@@ -25,7 +25,8 @@ public class Etudiant
     Classe classe;
 
 
-    public Etudiant() {
+    public Etudiant()
+    {
     }
 
     public Etudiant(String nom, String prenom, String date_naissance, Classe classe) {

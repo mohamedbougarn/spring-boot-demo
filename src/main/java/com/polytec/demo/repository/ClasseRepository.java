@@ -8,15 +8,14 @@ import java.util.Collection;
 import java.util.List;
 
 @Repository
-public interface ClasseRepository extends JpaRepository<Class,Long>
+public interface ClasseRepository extends JpaRepository<Classe,Long>
 {
 
     public Classe add(Classe classe);
-    public Classe getClasseById(String id);
+    public Classe getClasseById(Long id);
     public Classe update(Classe classe);
-    public void delete(Long id);
+    public void deleteById(Long id);
     public List<Classe> getAll();
-    public Classe getClassById (String id);
     public Collection<Classe> findByIdIsNull();
 
 }
