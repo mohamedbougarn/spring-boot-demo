@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e53697ba-9f08-41f6-aab3-9d14b9b5fde1" name="Default Changelist" comment="first commit">
+    <list default="true" id="e53697ba-9f08-41f6-aab3-9d14b9b5fde1" name="Default Changelist" comment="cempletement du code de controller">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytec/demo/controller/ClasseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytec/demo/controller/ClasseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytec/demo/controller/EtudiantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytec/demo/controller/EtudiantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytec/demo/repository/EtudiantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytec/demo/repository/EtudiantRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytec/demo/service/ClasseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytec/demo/service/ClasseService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +108,7 @@
       <workItem from="1635602721601" duration="3924000" />
       <workItem from="1635616037432" duration="14720000" />
       <workItem from="1635762328617" duration="524000" />
-      <workItem from="1635762880307" duration="55000" />
+      <workItem from="1635762880307" duration="4193000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1635605263058</created>
@@ -112,11 +117,35 @@
       <option name="project" value="LOCAL" />
       <updated>1635605263058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="problem controller">
+      <created>1635763017205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635763017205</updated>
+    </task>
+    <task id="LOCAL-00003" summary="problem controller">
+      <created>1635763167419</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635763167419</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -133,6 +162,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="problem controller" />
+    <MESSAGE value="cempletement du code de controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="cempletement du code de controller" />
   </component>
 </project>

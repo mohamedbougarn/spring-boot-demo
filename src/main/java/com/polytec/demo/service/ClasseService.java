@@ -31,11 +31,16 @@ public class ClasseService
         classeRepository.deleteById(id);
     }
 
+
     public List<Classe> getAll() {
         return classeRepository.getAll();
     }
 
-    public Classe getClassById(Long id) {
+
+    public Classe getClassById(Long id)
+    {
         return classeRepository.getClasseById(id);
     }
+
 }
+

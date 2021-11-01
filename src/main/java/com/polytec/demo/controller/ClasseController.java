@@ -4,17 +4,16 @@ import com.polytec.demo.Utils.ApiResponse;
 import com.polytec.demo.entity.Classe;
 import com.polytec.demo.service.ClasseService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 
 @RestController
 @RequestMapping("/api/classe")
 public class ClasseController
 {
-    /*
+
     @Autowired
     ClasseService classeService;
 
@@ -42,7 +41,35 @@ public class ClasseController
         return new ApiResponse("Classe sauvegardé avec succès");
 
     }
-*/
+
+
+    @PutMapping("/update")
+    public Classe update(@RequestBody Classe classe)
+    {
+        return classeService.update(classe);
+    }
+
+    @GetMapping("/getAll")
+    public List<Classe> getAll()
+    {
+            return classeService.getAll();
+    }
+
+
+    @GetMapping("/getClassebyId/{id}")
+    public Classe getbyId(@PathVariable Long l)
+    {
+        return classeService.getClassById(l);
+    }
+
+    @DeleteMapping("/deleteById/{id}")
+    void delete(@PathVariable Long l)
+    {
+        classeService.delete(l);
+    }
+
+
+
 
 
 }
