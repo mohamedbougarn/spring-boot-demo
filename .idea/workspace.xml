@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e53697ba-9f08-41f6-aab3-9d14b9b5fde1" name="Default Changelist" comment="">
+    <list default="true" id="e53697ba-9f08-41f6-aab3-9d14b9b5fde1" name="Default Changelist" comment="cempletement du code de controller">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytec/demo/repository/ClasseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytec/demo/repository/ClasseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytec/demo/repository/EtudiantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytec/demo/repository/EtudiantRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytec/demo/service/ClasseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytec/demo/service/ClasseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polytec/demo/controller/ClasseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polytec/demo/controller/EtudiantController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polytec/demo/entity/Classe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polytec/demo/entity/Etudiant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polytec/demo/repository/ClasseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polytec/demo/repository/EtudiantRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polytec/demo/service/ClasseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polytec/demo/service/EtudiantService.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +34,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\5eme g-info\ghazi_jee\JEE_Project\exemple-spring-boot\demo\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -104,6 +124,7 @@
       <workItem from="1635616037432" duration="14720000" />
       <workItem from="1635762328617" duration="524000" />
       <workItem from="1635762880307" duration="4232000" />
+      <workItem from="1636115530707" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1635605263058</created>

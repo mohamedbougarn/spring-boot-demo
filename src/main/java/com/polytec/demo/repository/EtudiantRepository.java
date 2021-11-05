@@ -12,10 +12,10 @@ import java.util.List;
 public interface EtudiantRepository extends JpaRepository<Etudiant,Long>
 {
 
-    public Etudiant add(Etudiant etudiant);
-    public Etudiant update(Etudiant etudiant);
+   //public Etudiant add(Etudiant etudiant);
+    //public Etudiant update(Etudiant etudiant);
     public void deleteById(Long id);
-    public List<Etudiant> getAll();
+    //public List<Etudiant> getAll();
     public Etudiant getEtudiantById (Long id);
     public Collection<Personne> findByIdIsNull();
 

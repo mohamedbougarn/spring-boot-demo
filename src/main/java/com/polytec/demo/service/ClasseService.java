@@ -14,7 +14,7 @@ public class ClasseService
     ClasseRepository classeRepository;
 
     public Classe add(Classe classe) {
-        return classeRepository.add(classe);
+        return classeRepository.save(classe);
     }
 
     public Classe getClasseById(Long id) {
@@ -23,7 +23,7 @@ public class ClasseService
 
     public Classe update(Classe classe)
     {
-        return classeRepository.update(classe);
+        return classeRepository.save(classe);
     }
 
     public void delete(Long id)
@@ -33,7 +33,7 @@ public class ClasseService
 
 
     public List<Classe> getAll() {
-        return classeRepository.getAll();
+        return classeRepository.findAll();
     }
 
 
