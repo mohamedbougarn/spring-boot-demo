@@ -2,21 +2,21 @@ package com.polytec.demo;
 
 import com.polytec.demo.entity.Personne;
 import com.polytec.demo.repository.PersonneRepository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
-
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.Collection;
 import java.util.Date;
-import java.util.List;
 
 @SpringBootApplication()
 @ComponentScan(basePackages = {"com.polytec.demo.Utils"})
-public class DemoApplication implements CommandLineRunner{
+
+
+public class DemoApplication /*implements CommandLineRunner*/{
 
 
 
@@ -25,11 +25,18 @@ public class DemoApplication implements CommandLineRunner{
 	PersonneRepository personneRepository;
 
 
+
+	@RequestMapping("/")
+	public String greet(){
+		return "welcome! here? ";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	public void run(String... args) throws Exception {
+
+	/*public void run(String... args) throws Exception {
 
 		Date dateNaissance = new Date(1992-1900,11-1,22);
 
@@ -60,5 +67,6 @@ public class DemoApplication implements CommandLineRunner{
 
 
 
-	}
+	}*/
+
 }
